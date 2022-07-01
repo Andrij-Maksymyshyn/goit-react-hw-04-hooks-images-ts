@@ -6,7 +6,7 @@ import { Header, SearchForm, Input } from './Searchbar.styled';
 
 
 interface IProps {
-  onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void,
+  onSubmit?: (e: any) => void,
   propSubmit: (inputFormValue: string) => void,
 };
 
